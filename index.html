@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="js/scripts.js"></script>
-    <title>Triangle Checker</title>
-  </head>
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Triangle Checker</title>
+</head>
+<body>
+  <h1>Triangle Checker</h1>
 
+  <p>Please enter three numbers. These will be the sides of your triangle...or will they?</p>
+
+  <form>
+    <label for="side1input">Side 1</label>
+    <input id="side1input" type="number" name="side1input">
+    <br>
+    <label for="side2input">Side 2</label>
+    <input id="side2input" type="number" name="side2input">
+    <br>
+    <label for="side3input">Side 3</label>
+    <input id="side3input" type="number" name="side3input">
+    <br>
+    <button type="submit">Is this a triangle?</button>
+  </form>
+
+<h1 class="hidden">Results</h1>
+
+<p class="hidden">This is a <span id="result"></span></p>
+
+
+</body>
 
 
 
